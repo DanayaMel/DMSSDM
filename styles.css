@@ -1,7 +1,16 @@
-.paragraph{
-    text-align: left;
+* {
+  color: white;
 }
 
-.name{
-    text-align: center;
+header {
+  background-color: #3D84A8;
+  padding: 20px;
+}
+
+.paragraph {
+  text-align: left;
+}
+
+.name {
+  text-align: center;
 }
