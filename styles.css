@@ -1,0 +1,20 @@
+#links a {
+  
+/*	background-color: blue;*/
+/*	position: absolute;*/
+	
+	text-decoration: none;
+	display: block;/*lines up */
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Playfair Display', serif;
+	color: silver;
+	top: 100px;
+	margin-top: 95px;
+	
+	
+}
+
+#links a:hover { color: rgba(56,128,239,0.75);}
+#links a:visited { color: silver;}
+#links a:active { color: yellow;}
