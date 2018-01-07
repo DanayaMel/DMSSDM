@@ -220,6 +220,13 @@ ________________________________________ */
 
 .paragraph {
   text-align: left;
+  
+}
+
+body.coloring {
+  background-color: #3D84A8;
+  color: white;
+  
 }
 
 .name {
@@ -233,4 +240,14 @@ ________________________________________ */
 
 .aboutfoot {
   background-color: #46CDCF;
+}
+
+.profile{
+  height: 200px;
+  width: 200px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
 }
