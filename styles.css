@@ -1,5 +1,125 @@
 /* ________________________________________
-              Danaya
+              DENISE
+________________________________________ */
+
+#links a {
+  
+	text-decoration: none;
+/*	color: rgba(158,131,41,1.00);*/
+	font-size: 24px;
+	
+/*	position: absolute;*/
+/*	bottom: 0px;*/
+/*	background-color: blue;*/
+/*	position: absolute;*/
+/*	position: fixed;*/
+/*	bottom: 0px;*/
+/*	text-decoration: none;*/
+/*	display: block;lines up */
+/*	text-align: center;*/
+/*	font-size: 32px;*/
+	font-family: 'Playfair Display', serif;
+/*	color: silver;*/
+/*	top: 900px;*/
+/*	bottom: 100px;*/
+/*	margin-bottom: 5px;*/
+	
+	
+}
+
+#links a:hover { color: rgba(158,131,41,1.00);
+text-decoration: underline;}
+#links a:visited { color: silver;}
+#links a:active { color: yellow;}
+
+
+#link {
+	
+	background-size: cover;
+	
+	
+}
+
+#lin_h3 {
+	
+	position: absolute;
+	font-size: 88px;
+	top: 45px;
+	left: 270px;
+	color: #735F05;	
+	font-family: 'Playfair Display', serif;
+
+}
+
+#h4_id {
+	
+	position: absolute;
+	font-size: 56px;
+	top: 210px;
+	left: 520px;
+	color: #C7BEA3;
+	font-family: 'Playfair Display', serif;
+
+}
+
+#p1 {
+	
+	position: absolute;
+/*	background-color: blue;*/
+	width: 680px;
+/*	height: 550px;*/
+	font-size: 25px;
+	top: 330px;
+	left: 350px;
+/*	color: #826734;*/
+/*	color: #A08957;*/
+	color: #C1B094;
+	font-family: 'Playfair Display', serif;
+
+}
+
+#tut {
+	
+	position: absolute;
+/*	top: 525px;*/
+	top: 105px;
+	left: 15px;
+	color: rgba(158,131,41,1.00);
+
+}
+
+#ns {
+	
+	position: absolute;
+	top: 155px;
+	left: 10px;
+	color: rgba(158,131,41,1.00);
+	
+}
+
+#sp {
+	
+	position: absolute;
+	top: 200px;
+	left: 15px;
+	color: rgba(158,131,41,1.00);
+	
+	
+}
+
+
+/*
+#yu {
+	
+	position: absolute;
+	top: 525px;
+	left: 770px;
+	color: rgba(104,67,0,1.00);
+	
+}
+*/
+/* ________________________________________
+              DANAYA
 ________________________________________ */
 
 body {
