@@ -2,122 +2,125 @@
               DENISE
 ________________________________________ */
 
-#links a {
-  
-	text-decoration: none;
-/*	color: rgba(158,131,41,1.00);*/
-	font-size: 24px;
-	
-/*	position: absolute;*/
-/*	bottom: 0px;*/
-/*	background-color: blue;*/
-/*	position: absolute;*/
-/*	position: fixed;*/
-/*	bottom: 0px;*/
-/*	text-decoration: none;*/
-/*	display: block;lines up */
-/*	text-align: center;*/
-/*	font-size: 32px;*/
-	font-family: 'Playfair Display', serif;
-/*	color: silver;*/
-/*	top: 900px;*/
-/*	bottom: 100px;*/
-/*	margin-bottom: 5px;*/
-	
-	
+#link {
+  background-image: url("typing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-#links a:hover { color: rgba(158,131,41,1.00);
-text-decoration: underline;}
-#links a:visited { color: silver;}
-#links a:active { color: yellow;}
+#links a {
+  text-decoration: none;
+  /*	color: rgba(158,131,41,1.00);*/
+  font-size: 24px;
+  /* position: relative; */
+  /*	bottom: 0px;*/
+  /*	background-color: blue;*/
+  /*	position: absolute;*/
+  /*	position: fixed;*/
+  /*	bottom: 0px;*/
+  /*	text-decoration: none;*/
+  /*	display: block;lines up */
+  /*	text-align: center;*/
+  /*	font-size: 32px;*/
+  font-family: 'Playfair Display', serif;
+  /*	color: silver;*/
+  /*	top: 900px;*/
+  /*	bottom: 100px;*/
+  /*	margin-bottom: 5px;*/
+}
 
+#links a:hover {
+  color: rgba(158, 131, 41, 1.00);
+  text-decoration: underline;
+}
 
-#link {
-	
-	background-size: cover;
-	
-	
+#links a:visited {
+  color: silver;
+}
+
+#links a:active {
+  color: yellow;
+}
+
+#links {
+  padding: 90px;
+  position: relative;
 }
 
 #lin_h3 {
-	
-	position: absolute;
-	font-size: 88px;
-	top: 45px;
-	left: 270px;
-	color: #735F05;	
-	font-family: 'Playfair Display', serif;
-
+  position: absolute;
+  font-size: 88px;
+  top: 45px;
+  left: 270px;
+  color: #735F05;
+  font-family: 'Playfair Display', serif;
 }
 
 #h4_id {
-	
-	position: absolute;
-	font-size: 56px;
-	top: 210px;
-	left: 520px;
-	color: #C7BEA3;
-	font-family: 'Playfair Display', serif;
-
+  position: absolute;
+  font-size: 56px;
+  top: 210px;
+  left: 520px;
+  color: #C7BEA3;
+  font-family: 'Playfair Display', serif;
 }
 
 #p1 {
-	
-	position: absolute;
-/*	background-color: blue;*/
-	width: 680px;
-/*	height: 550px;*/
-	font-size: 25px;
-	top: 330px;
-	left: 350px;
-/*	color: #826734;*/
-/*	color: #A08957;*/
-	color: #C1B094;
-	font-family: 'Playfair Display', serif;
-
+  position: absolute;
+  /*	background-color: blue;*/
+  width: 680px;
+  /*	height: 550px;*/
+  font-size: 25px;
+  top: 330px;
+  left: 350px;
+  /*	color: #826734;*/
+  /*	color: #A08957;*/
+  color: #C1B094;
+  font-family: 'Playfair Display', serif;
 }
 
 #tut {
-	
-	position: absolute;
-/*	top: 525px;*/
-	top: 105px;
-	left: 15px;
-	color: rgba(158,131,41,1.00);
-
+  position: absolute;
+  /*	top: 525px;*/
+  top: 105px;
+  left: 15px;
+  color: rgba(158, 131, 41, 1.00);
 }
 
 #ns {
-	
-	position: absolute;
-	top: 155px;
-	left: 10px;
-	color: rgba(158,131,41,1.00);
-	
+  position: absolute;
+  top: 155px;
+  left: 10px;
+  color: rgba(158, 131, 41, 1.00);
 }
 
 #sp {
-	
-	position: absolute;
-	top: 200px;
-	left: 15px;
-	color: rgba(158,131,41,1.00);
-	
-	
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  color: rgba(158, 131, 41, 1.00);
 }
 
+.linksnavlink, .aboutnavlink {
+  color: white;
+}
+
+.linksnavitem {
+  background-color: #384259;
+}
 
 /*
 #yu {
-	
+
 	position: absolute;
 	top: 525px;
 	left: 770px;
 	color: rgba(104,67,0,1.00);
-	
+
 }
 */
+
 /* ________________________________________
               DANAYA
 ________________________________________ */
@@ -132,25 +135,27 @@ body {
   padding-right: 5px;
 }
 
-header {
+.header {
   position: relative;
-  background-color: #3D84A8;
+  top: 0;
+  background-color: #384259;
   color: white;
-  padding-bottom: 50px;
 }
 
-.nav {
-  position: absolute;
-  bottom: 0px;
-}
-
-.nav-item {
+.homeheader {
   color: black;
-  border-right: 2px solid gray;
-  background-color: white;
 }
 
-.nav-link {
+.aboutheader .display-6, .ah, .fa {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* .nav-item {
+  color: black;
+  background-color: white;
+} */
+
+.homenavlink {
   color: #41454c;
 }
 
@@ -204,7 +209,6 @@ header {
 .card-footer {
   font-size: 13px;
   text-align: center;
-  background-color: #3D84A8;
   color: #46494f;
   margin-top: 30px;
 }
@@ -219,4 +223,13 @@ ________________________________________ */
 
 .name {
   text-align: center;
+}
+
+.aboutheader {
+  background-color: #46CDCF;
+  color: white;
+}
+
+.aboutfoot {
+  background-color: #46CDCF;
 }
